@@ -14,19 +14,11 @@ This project implements a **book recommendation system** using both **content-ba
 
 3. **Web Scraping for Data Enrichment**  
    - `scrap.py` extracts book details from the **Goodreads website** using **Selenium**.  
-   - It collects information such as book titles, authors, and ratings.  
+   - It collects information such as book title, author, description, average rating, and total rating count.  
    - You can customize the script to gather additional relevant data for recommendations.
 
 4. **Flask Web Application**  
    - A simple interactive web interface to access the recommendation engine.  
    - Located in the `flask project/` directory, with `app.py` handling backend logic and HTML templates for the frontend.
 
----
-
-**Setup and Installation**  
-
-1. **Clone the Repository**  
-   ```bash
-   git clone <repository_url>
-   cd Project-main/project/flask project
 
